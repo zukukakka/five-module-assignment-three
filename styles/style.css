@@ -161,3 +161,66 @@ header {
 }
 
 /* Footer Section Style */
+footer {
+  background: #151414;
+  margin-top: 130px;
+  padding: 130px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info h3 {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.footer-info p,
+span {
+  max-width: 480px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer-info span {
+  display: block;
+  margin-top: 15px;
+}
+
+.footer-info ul {
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.footer-subscriber-info {
+  margin-bottom: auto;
+}
+
+.footer-subscriber-info h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+.footer-subscriber-info input {
+  margin-top: 15px;
+  display: block;
+  color: #f3f3f3;
+  font-size: 18px;
+  background: #151414;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  padding: 15px;
+}
+
+.footer-subscriber-info button {
+  border: none;
+  margin-top: 20px;
+  border-radius: 8px;
+  background: #005fac;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+}
