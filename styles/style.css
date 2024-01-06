@@ -51,3 +51,45 @@ header {
 }
 
 /* Here is About section style */
+
+.about-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto 0;
+}
+
+.about-img {
+  width: 50%;
+}
+
+.about-info {
+  margin-top: 120px;
+}
+.about-title {
+  max-width: 300px;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.about-description {
+  max-width: 400px;
+  margin-top: 15px;
+  color: #444343;
+  font-size: 16px;
+}
+
+.about-list {
+  margin-top: 15px;
+  list-style: none;
+}
+.list-item {
+  margin-top: 10px;
+}
+
+.list-item span {
+  margin-right: 10px;
+  color: #16d887;
+}
+
+/* plan section style */
